@@ -1,8 +1,11 @@
 # Laravel Alert
 
+[![GitHub tag](https://img.shields.io/github/tag/ankurk91/laravel-alert.svg)](https://github.com/ankurk91/laravel-alert/releases)
 [![Total Downloads](https://badgen.net/packagist/dt/ankurk91/laravel-alert)](https://packagist.org/packages/ankurk91/laravel-alert)
 [![Latest Version](https://badgen.net/github/release/ankurk91/laravel-alert)](https://github.com/ankurk91/laravel-alert/releases)
 [![License](https://badgen.net/packagist/license/ankurk91/laravel-alert)](https://packagist.org/packages/ankurk91/laravel-alert)
+[![Build Status](https://travis-ci.com/ankurk91/bandwidth-notification-channel.svg)](https://travis-ci.com/ankurk91/laravel-alert)
+[![codecov](https://codecov.io/gh/ankurk91/laravel-alert/branch/master/graph/badge.svg)](https://codecov.io/gh/ankurk91/laravel-alert)
 
 A [Bootstrap](http://getbootstrap.com/) alert helper for Laravel.
 

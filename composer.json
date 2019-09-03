@@ -21,6 +21,7 @@
     "illuminate/support": "5.8.*|^6.0"
   },
   "require-dev": {
+    "mockery/mockery": "^1.2",
     "phpunit/phpunit": "^7.5.15|^8.3.4"
   },
   "config": {
