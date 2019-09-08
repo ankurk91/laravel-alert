@@ -4,10 +4,10 @@
 [![Packagist](https://badgen.net/packagist/v/ankurk91/laravel-alert)](https://packagist.org/packages/ankurk91/laravel-alert)
 [![Total Downloads](https://badgen.net/packagist/dt/ankurk91/laravel-alert)](https://packagist.org/packages/ankurk91/laravel-alert)
 [![License](https://badgen.net/packagist/license/ankurk91/laravel-alert)](https://packagist.org/packages/ankurk91/laravel-alert)
-[![Build Status](https://travis-ci.com/ankurk91/bandwidth-notification-channel.svg)](https://travis-ci.com/ankurk91/laravel-alert)
+[![Build Status](https://travis-ci.com/ankurk91/laravel-alert.svg)](https://travis-ci.com/ankurk91/laravel-alert)
 [![codecov](https://codecov.io/gh/ankurk91/laravel-alert/branch/master/graph/badge.svg)](https://codecov.io/gh/ankurk91/laravel-alert)
 
-A [Bootstrap](http://getbootstrap.com/) alert helper for Laravel.
+A [Bootstrap](https://getbootstrap.com/docs/4.1/components/alerts/) alert helper for Laravel 5.8+.
 
 ## Installation
 You can install the package via composer:
@@ -25,7 +25,7 @@ Include the alert view within your view blade templates.
 You can use facade.
 ```php
 <?php
-// You can alias this facade in your config/app.php.
+// Import the facade
 use Ankurk91\LaravelAlert\Facades\Alert;
 
 // In your controllers
@@ -36,9 +36,11 @@ Alert::warning('You are running late.');
 Alert::info('Order dispatched.');
 ```
 
-There is also a helper function if that is what you prefer.
+There is also a global helper function if you prefer.
 
 ```php
+<?php
+
 alert()->info('Use anywhere without facade.');
 
 alert('You can use the <b>html</b> tags like this too.', 'danger');
