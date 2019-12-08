@@ -7,7 +7,7 @@
 [![Build Status](https://travis-ci.com/ankurk91/laravel-alert.svg)](https://travis-ci.com/ankurk91/laravel-alert)
 [![codecov](https://codecov.io/gh/ankurk91/laravel-alert/branch/master/graph/badge.svg)](https://codecov.io/gh/ankurk91/laravel-alert)
 
-A [Bootstrap](https://getbootstrap.com/docs/4.1/components/alerts/) alert helper for Laravel 5.8+.
+A [Bootstrap](https://getbootstrap.com/docs/4.1/components/alerts/) alert helper for Laravel 6+.
 
 ## Installation
 You can install the package via composer:
