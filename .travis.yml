@@ -18,6 +18,7 @@ install:
 
 # Note: Code coverage requires php-xDebug extension enabled on CI server
 script:
+  -  ./vendor/bin/phpunit --version
   - composer test -- --coverage-clover=coverage.xml
 
 #after_script:
