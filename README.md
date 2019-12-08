@@ -46,6 +46,14 @@ alert()->info('Use anywhere without facade.');
 alert('You can use the <b>html</b> tags like this too.', 'danger');
 ```
 
+## Changelog
+Please see [CHANGELOG](CHANGELOG.md) for more information what has changed recently.
+
+## Testing
+```
+composer test
+```
+
 ## Security
 If you discover any security related issues, please email `pro.ankurk1[at]gmail[dot]com` instead of using the issue tracker.
 
