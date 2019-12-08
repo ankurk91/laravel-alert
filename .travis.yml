@@ -1,4 +1,4 @@
-dist: xenial
+dist: bionic
 
 language: php
 
@@ -7,6 +7,7 @@ php:
   - 7.1
   - 7.2
   - 7.3
+  - 7.4
 
 env:
   matrix:
@@ -33,8 +34,10 @@ branches:
   only:
     - master
     - dev
+    - v1.x
 
 # You can force delete the cache using travis-ci web interface
 cache:
   directories:
     - $HOME/.composer/cache
+
