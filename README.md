@@ -46,6 +46,20 @@ alert()->info('Use anywhere without facade.');
 alert('You can use the <b>html</b> tags like this too.', 'danger');
 ```
 
+### BootstrapVue support
+The package include the template to support bootstrap vue [alert](https://bootstrap-vue.js.org/docs/components/alert/#alerts) component.
+
+* Import the required javascript components.
+```js
+// resources/js/bootstrap.js
+import { AlertPlugin } from 'bootstrap-vue'
+Vue.use(AlertPlugin)
+```
+* Update your blade template like:
+```blade
+@include('alert::bootstrapVue')
+```
+
 ## Changelog
 Please see [CHANGELOG](CHANGELOG.md) for more information what has changed recently.
 
