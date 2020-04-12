@@ -4,7 +4,7 @@
 [![Packagist](https://badgen.net/packagist/v/ankurk91/laravel-alert)](https://packagist.org/packages/ankurk91/laravel-alert)
 [![Total Downloads](https://badgen.net/packagist/dt/ankurk91/laravel-alert)](https://packagist.org/packages/ankurk91/laravel-alert)
 [![License](https://badgen.net/packagist/license/ankurk91/laravel-alert)](https://packagist.org/packages/ankurk91/laravel-alert)
-[![Build Status](https://travis-ci.com/ankurk91/laravel-alert.svg)](https://travis-ci.com/ankurk91/laravel-alert)
+![tests](https://github.com/ankurk91/laravel-alert/workflows/tests/badge.svg)
 [![codecov](https://codecov.io/gh/ankurk91/laravel-alert/branch/master/graph/badge.svg)](https://codecov.io/gh/ankurk91/laravel-alert)
 
 A [Bootstrap](https://getbootstrap.com/docs/4.1/components/alerts/) alert helper for Laravel 6+.
