@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "24e2ca22eb548a4a29ed12fb24aec934",
+    "content-hash": "b9a503992603ebd3ae3e2163b17a269e",
     "packages": [
         {
             "name": "doctrine/inflector",
@@ -1936,6 +1936,7 @@
             "keywords": [
                 "tokenizer"
             ],
+            "abandoned": true,
             "time": "2020-02-07T06:19:00+00:00"
         },
         {
@@ -2856,7 +2857,7 @@
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {
-        "php": "^7.2"
+        "php": "^7.3"
     },
     "platform-dev": [],
     "plugin-api-version": "1.1.0"
