@@ -17,8 +17,8 @@
   ],
   "require": {
     "php": "^7.3",
-    "illuminate/session": "^7.0||^8.0@dev",
-    "illuminate/support": "^7.0||^8.0@dev"
+    "illuminate/session": "^7.0||^8.0",
+    "illuminate/support": "^7.0||^8.0"
   },
   "require-dev": {
     "mockery/mockery": "^1.3",
