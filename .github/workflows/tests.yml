@@ -10,7 +10,7 @@ on:
       - master
       - dev
   schedule:
-    - cron: '0 0 1 * *'
+    - cron: '0 0 15 * *'
 
 jobs:
   test:
@@ -19,7 +19,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        php: [7.3, 7.4, 8.0]
+        php: [7.4, 8.0]
         composer-flag: [prefer-lowest, prefer-stable]
 
     name: php v${{ matrix.php }} - ${{ matrix.composer-flag }}
@@ -32,13 +32,12 @@ jobs:
         uses: shivammathur/setup-php@v2
         with:
           php-version: ${{ matrix.php }}
-          extensions: dom, curl, libxml, mbstring, zip, pcntl, pdo, bcmath, intl, gd, exif, iconv
+          extensions: dom, curl, libxml, mbstring, zip, bcmath, intl, gd, exif, iconv
           tools: composer:v2
           coverage: pcov
 
       - name: Install dependencies
         run: composer update --${{ matrix.composer-flag }} --prefer-dist --no-interaction --no-progress
-
 
       - name: Execute tests
         run: composer test -- --coverage-clover=coverage.xml

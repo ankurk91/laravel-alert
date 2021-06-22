@@ -3,14 +3,7 @@
 use Ankurk91\LaravelAlert\Alert;
 
 if (!function_exists('alert')) {
-    /**
-     * Flash an alert.
-     *
-     * @param  string|null  $message
-     * @param  string|null  $style
-     *
-     * @return \Ankurk91\LaravelAlert\Alert
-     */
+
     function alert(string $message = null, string $style = 'info'): Alert
     {
         $alert = app('alert');
@@ -21,4 +14,5 @@ if (!function_exists('alert')) {
 
         return $alert->flash($message, $style);
     }
+
 }

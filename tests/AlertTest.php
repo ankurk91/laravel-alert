@@ -11,8 +11,7 @@ class AlertTest extends TestCase
 {
     use \Mockery\Adapter\Phpunit\MockeryPHPUnitIntegration;
 
-    /** @var Alert */
-    public $alert;
+    public Alert $alert;
 
     public $session;
 

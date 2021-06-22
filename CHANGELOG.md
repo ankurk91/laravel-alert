@@ -1,5 +1,8 @@
 # Changelog
 
+## 2.3.0
+* Drop php 7.3 support
+
 ## 2.1.0
 * Add bootstrap vue support
 
