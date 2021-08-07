@@ -1,5 +1,9 @@
 # Changelog
 
+## 2.4.0
+
+* Alpine.js support
+
 ## 2.3.0
 
 * Drop php 7.3 support

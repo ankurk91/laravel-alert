@@ -55,7 +55,7 @@ alert('You can use the <b>html</b> tags like this too.', 'danger');
 The package include the template to support bootstrap
 vue [alert](https://bootstrap-vue.js.org/docs/components/alert/#alerts) component.
 
-* Import the required javascript components.
+Import the required javascript components.
 
 ```js
 // resources/js/bootstrap.js
@@ -64,10 +64,25 @@ import {AlertPlugin} from 'bootstrap-vue'
 Vue.use(AlertPlugin)
 ```
 
-* Update your blade template like:
+Update your blade template like:
 
 ```blade
 @include('alert::bootstrapVue')
+```
+
+### [Alpine.js](https://alpinejs.dev/) support
+
+Add alpine.js script to your blade template
+
+```html
+# use a CDN or install via npm
+<script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.2/dist/cdn.min.js"></script>
+```
+
+Update your blade template like:
+
+```blade
+@include('alert::bootstrapAlpine')
 ```
 
 ## Changelog
@@ -76,7 +91,7 @@ Please see [CHANGELOG](CHANGELOG.md) for more information what has changed recen
 
 ## Testing
 
-```
+```bash
 composer test
 ```
 

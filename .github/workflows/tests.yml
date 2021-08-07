@@ -33,7 +33,6 @@ jobs:
         with:
           php-version: ${{ matrix.php }}
           extensions: dom, curl, libxml, mbstring, zip, bcmath, intl, gd, exif, iconv
-          tools: composer:v2
           coverage: pcov
 
       - name: Install dependencies
