@@ -1,19 +1,20 @@
 <?php
 
-namespace Ankurk91\Tests\LaravelAlert;
+namespace Ankurk91\LaravelAlert\Tests;
 
 use Ankurk91\LaravelAlert\Alert;
 use Illuminate\Session\Store;
 use Mockery;
+use Mockery\Adapter\Phpunit\MockeryPHPUnitIntegration;
 use PHPUnit\Framework\TestCase;
 
 class AlertTest extends TestCase
 {
-    use \Mockery\Adapter\Phpunit\MockeryPHPUnitIntegration;
+    use MockeryPHPUnitIntegration;
 
     public Alert $alert;
 
-    public $session;
+    public Store $session;
 
     public function setUp(): void
     {

@@ -5,7 +5,7 @@
 [![Downloads](https://badgen.net/packagist/dt/ankurk91/laravel-alert)](https://packagist.org/packages/ankurk91/laravel-alert)
 [![License](https://badgen.net/packagist/license/ankurk91/laravel-alert)](https://packagist.org/packages/ankurk91/laravel-alert)
 [![tests](https://github.com/ankurk91/laravel-alert/workflows/tests/badge.svg)](https://github.com/ankurk91/laravel-alert/actions)
-[![codecov](https://codecov.io/gh/ankurk91/laravel-alert/branch/master/graph/badge.svg)](https://codecov.io/gh/ankurk91/laravel-alert)
+[![codecov](https://codecov.io/gh/ankurk91/laravel-alert/branch/main/graph/badge.svg)](https://codecov.io/gh/ankurk91/laravel-alert)
 
 A [Bootstrap](https://getbootstrap.com/docs/4.6/components/alerts/) alert helper for Laravel
 
@@ -29,10 +29,8 @@ You can use facade.
 
 ```php
 <?php
-// Import the facade
 use Ankurk91\LaravelAlert\Facades\Alert;
 
-// In your controllers
 Alert::error('Something went wrong.');
 Alert::danger('I am same as error.');
 Alert::success('Contact saved.');
@@ -76,7 +74,7 @@ Add alpine.js script to your blade template
 
 ```html
 # use a CDN or install via npm
-<script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.2/dist/cdn.min.js"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.8/dist/cdn.min.js"></script>
 ```
 
 Update your blade template like:
@@ -97,8 +95,7 @@ composer test
 
 ## Security
 
-If you discover any security related issues, please email `pro.ankurk1[at]gmail[dot]com` instead of using the issue
-tracker.
+If you discover any security issues, please email `pro.ankurk1[at]gmail[dot]com` instead of using the issue tracker.
 
 ## Attribution
 

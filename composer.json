@@ -17,8 +17,8 @@
   ],
   "require": {
     "php": "^8.0",
-    "illuminate/session": "^8.0||^9.0",
-    "illuminate/support": "^8.0||^9.0"
+    "illuminate/session": "^8.13 || ^9.0",
+    "illuminate/support": "^8.13 || ^9.0"
   },
   "require-dev": {
     "mockery/mockery": "^1.4.2",
@@ -47,11 +47,12 @@
   },
   "autoload-dev": {
     "psr-4": {
-      "Ankurk91\\Tests\\LaravelAlert\\": "tests/"
+      "Ankurk91\\LaravelAlert\\Tests\\": "tests/"
     }
   },
   "scripts": {
-    "test": "vendor/bin/phpunit --testdox --color=always"
+    "test": "vendor/bin/phpunit --testdox --color=always",
+    "test:coverage": "vendor/bin/phpunit --testdox --color=always --coverage-clover=coverage.xml"
   },
   "minimum-stability": "dev",
   "prefer-stable": true
