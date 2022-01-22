@@ -1,5 +1,10 @@
 # Changelog
 
+## [2.5.0](https://github.com/ankurk91/laravel-alert/compare/2.4.0..2.5.0)
+
+* Allow Laravel v9.x
+* Drop support for php 7.4
+
 ## 2.4.0
 
 * Alpine.js support
