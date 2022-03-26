@@ -1,5 +1,13 @@
 # Changelog
 
+## [2.6.0](https://github.com/ankurk91/laravel-alert/compare/2.5.0..2.6.0)
+
+* Add a view for Vanilla JS which does not require any JS framework.
+
+```blade
+@include('alert::bootstrapVanilla')
+```
+
 ## [2.5.0](https://github.com/ankurk91/laravel-alert/compare/2.4.0..2.5.0)
 
 * Allow Laravel v9.x
