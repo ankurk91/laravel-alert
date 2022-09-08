@@ -14,7 +14,7 @@ class AlertServiceProvider extends ServiceProvider
 
     public function register(): void
     {
-        $this->app->singleton('alert', function ($app) {
+        $this->app->bind('alert', function ($app) {
             return new Alert($app['session.store']);
         });
 

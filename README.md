@@ -7,14 +7,14 @@
 [![tests](https://github.com/ankurk91/laravel-alert/workflows/tests/badge.svg)](https://github.com/ankurk91/laravel-alert/actions)
 [![codecov](https://codecov.io/gh/ankurk91/laravel-alert/branch/main/graph/badge.svg)](https://codecov.io/gh/ankurk91/laravel-alert)
 
-A [Bootstrap](https://getbootstrap.com/docs/4.6/components/alerts/) alert helper for Laravel
+A [Bootstrap CSS](https://getbootstrap.com/docs/4.6/components/alerts/) alert helper for Laravel
 
 ## Installation
 
 You can install the package via composer:
 
 ```bash
-composer require ankurk91/laravel-alert
+composer require "ankurk91/laravel-alert"
 ```
 
 Include the alert view within your view blade templates.
