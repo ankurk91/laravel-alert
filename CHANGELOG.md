@@ -1,5 +1,10 @@
 # Changelog
 
+## [2.7.0](https://github.com/ankurk91/laravel-alert/compare/2.6.0..2.7.0)
+
+* Drop support for Laravel v8
+* Test on php v8.2
+
 ## [2.6.0](https://github.com/ankurk91/laravel-alert/compare/2.5.0..2.6.0)
 
 * Add a view for Vanilla JS which does not require any JS framework.

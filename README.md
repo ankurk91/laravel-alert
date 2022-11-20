@@ -1,9 +1,9 @@
 # Laravel Alert
 
-[![GitHub tag](https://badgen.net/github/tag/ankurk91/laravel-alert)](https://github.com/ankurk91/laravel-alert/releases)
+[![GitHub tag](https://badgen.net/github/tag/ankurk91/laravel-alert)](https://github.com/ankurk91/laravel-alert/tags)
 [![Packagist](https://badgen.net/packagist/v/ankurk91/laravel-alert)](https://packagist.org/packages/ankurk91/laravel-alert)
-[![Downloads](https://badgen.net/packagist/dt/ankurk91/laravel-alert)](https://packagist.org/packages/ankurk91/laravel-alert)
-[![License](https://badgen.net/packagist/license/ankurk91/laravel-alert)](https://packagist.org/packages/ankurk91/laravel-alert)
+[![Downloads](https://badgen.net/packagist/dt/ankurk91/laravel-alert)](https://packagist.org/packages/ankurk91/laravel-alert/stats)
+[![License](https://badgen.net/packagist/license/ankurk91/laravel-alert)](LICENSE.txt)
 [![tests](https://github.com/ankurk91/laravel-alert/workflows/tests/badge.svg)](https://github.com/ankurk91/laravel-alert/actions)
 [![codecov](https://codecov.io/gh/ankurk91/laravel-alert/branch/main/graph/badge.svg)](https://codecov.io/gh/ankurk91/laravel-alert)
 
