@@ -3,6 +3,7 @@ declare(strict_types=1);
 
 namespace Ankurk91\LaravelAlert;
 
+use Illuminate\Contracts\Container\Container;
 use Illuminate\Support\ServiceProvider;
 
 class AlertServiceProvider extends ServiceProvider
@@ -14,7 +15,7 @@ class AlertServiceProvider extends ServiceProvider
 
     public function register(): void
     {
-        $this->app->bind('alert', function ($app) {
+        $this->app->scoped('alert', function (Container $app) {
             return new Alert($app['session.store']);
         });
 
@@ -24,7 +25,7 @@ class AlertServiceProvider extends ServiceProvider
     public function provides(): array
     {
         return [
-            'alert',
+            Alert::class,
         ];
     }
 }

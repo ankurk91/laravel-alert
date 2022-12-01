@@ -6,7 +6,7 @@ if (!function_exists('alert')) {
 
     function alert(string $message = null, string $style = 'info'): Alert
     {
-        $alert = app('alert');
+        $alert = app(Alert::class);
 
         if (is_null($message)) {
             return $alert;

@@ -7,11 +7,9 @@ use Illuminate\Session\Store;
 
 class Alert
 {
-    protected Store $session;
-
-    public function __construct(Store $session)
+    public function __construct(protected Store $session)
     {
-        $this->session = $session;
+        //
     }
 
     public function flash(string $message, string $style = 'info'): self

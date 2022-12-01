@@ -9,6 +9,6 @@ class Alert extends Facade
 {
     protected static function getFacadeAccessor(): string
     {
-        return 'alert';
+        return \Ankurk91\LaravelAlert\Alert::class;
     }
 }
