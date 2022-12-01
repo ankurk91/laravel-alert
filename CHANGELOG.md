@@ -1,5 +1,9 @@
 # Changelog
 
+## [2.7.1](https://github.com/ankurk91/laravel-alert/compare/2.7.0..2.7.1)
+
+* Use `scoped` binding
+
 ## [2.7.0](https://github.com/ankurk91/laravel-alert/compare/2.6.0..2.7.0)
 
 * Drop support for Laravel v8
