@@ -1,5 +1,10 @@
 # Changelog
 
+## [2.8.0](https://github.com/ankurk91/laravel-alert/compare/2.7.1..2.8.0)
+
+* Drop support for Laravel v9
+* Add support for Laravel v11
+
 ## [2.7.1](https://github.com/ankurk91/laravel-alert/compare/2.7.0..2.7.1)
 
 * Use `scoped` binding
