@@ -1,5 +1,9 @@
 # Changelog
 
+## [2.9.1](https://github.com/ankurk91/laravel-alert/compare/2.9.0..2.9.1)
+
+* Fix php v8.4 syntax
+
 ## [2.9.0](https://github.com/ankurk91/laravel-alert/compare/2.8.0..2.9.0)
 
 * Drop support for Laravel v9

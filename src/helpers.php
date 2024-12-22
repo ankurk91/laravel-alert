@@ -4,7 +4,7 @@ use Ankurk91\LaravelAlert\Alert;
 
 if (!function_exists('alert')) {
 
-    function alert(string $message = null, string $style = 'info'): Alert
+    function alert(?string $message = null, string $style = 'info'): Alert
     {
         $alert = app(Alert::class);
 
