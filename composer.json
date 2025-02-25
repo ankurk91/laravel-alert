@@ -17,12 +17,12 @@
   ],
   "require": {
     "php": "^8.2",
-    "illuminate/session": "^10 || ^11",
-    "illuminate/support": "^10|| ^11"
+    "illuminate/session": "^11 || ^12",
+    "illuminate/support": "^11 || ^12"
   },
   "require-dev": {
     "mockery/mockery": "^1.4.2",
-    "phpunit/phpunit": "^9.5"
+    "phpunit/phpunit": "^10"
   },
   "config": {
     "sort-packages": true

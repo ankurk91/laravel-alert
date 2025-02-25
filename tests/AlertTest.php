@@ -6,8 +6,10 @@ use Ankurk91\LaravelAlert\Alert;
 use Illuminate\Session\Store;
 use Mockery;
 use Mockery\Adapter\Phpunit\MockeryPHPUnitIntegration;
+use PHPUnit\Framework\Attributes\CoversClass;
 use PHPUnit\Framework\TestCase;
 
+#[CoversClass(Alert::class)]
 class AlertTest extends TestCase
 {
     use MockeryPHPUnitIntegration;

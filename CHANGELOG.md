@@ -1,5 +1,10 @@
 # Changelog
 
+## [2.10.0](https://github.com/ankurk91/laravel-alert/compare/2.9.1..2.10.0)
+
+* Allow Laravel 12
+* Drop Laravel 10
+
 ## [2.9.1](https://github.com/ankurk91/laravel-alert/compare/2.9.0..2.9.1)
 
 * Fix php v8.4 syntax

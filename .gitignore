@@ -48,6 +48,7 @@ composer.phar
 *.key
 
 # Other
+.phpunit.cache/
 /build/
 .phpunit.result.cache
 phpunit.xml
